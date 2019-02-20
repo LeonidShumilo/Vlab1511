@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download input data",
+      "name": "Land Productivuty trends and national Land Cover maps over Ukraine",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "data/ldn_data.tar"
+ }
+  ],
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Class count area",
+      "name": "Class count areas",
+      "valueSchema": "url",
+      "target": "data/count.txt"
+ }
+  ]
+}
